@@ -1,7 +1,7 @@
 <div class="page-header">
   <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
 </div>
-
+<h2>This is a post!!! ???</h2>
 <div class="row post-full">
   <div class="col-xs-12">
     <div class="date">
@@ -17,7 +17,7 @@
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
 
   {% unless page.tags == empty %}
     <ul class="tag_box inline">
@@ -25,8 +25,8 @@
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
-  
+  {% endunless %}
+
     <hr>
     <ul class="pagination">
     {% if page.previous %}

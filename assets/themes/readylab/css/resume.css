@@ -1,0 +1,77 @@
+h1 {
+  margin-bottom: 8px;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 0px;
+}
+
+li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+.resume-title {
+  margin-bottom: 10px;
+}
+
+.resume-tagline {
+  color: #999;
+  margin-bottom: 2rem;
+}
+
+.content-wrapper {
+  max-width: 36em;
+}
+
+.content-body {
+  font-size: 1rem;
+}
+
+.content-body h2, .content-body h3, .content-body h2.card-title, .content-body h4, .content-body h5, .content-body h6 {
+    clear: none;
+    font-weight: normal;
+}
+
+.resume-tagline,
+.wf-active h3,
+.resume-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.wf-active h3.section-title,
+.section-title{
+  border-bottom: 1px solid #dfdfdf;
+  padding: 6px 12px;
+  background-color: #ccc;
+  color: #fff;
+}
+
+.wf-active .section-title:not(:first-of-type),
+.section-title:not(:first-of-type){
+  margin-top: 2rem;
+}
+
+.section-title .title {
+  font-weight: 300;
+}
+
+.job-title {
+  font-weight: 700;
+}
+
+.employer {
+  font-style: italic;
+}
+
+.job-dates {
+  font-style: italic;
+}
+
+.school-name {
+  display: block;
+  font-weight: 700;
+}

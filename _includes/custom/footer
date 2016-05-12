@@ -1,0 +1,9 @@
+<footer>
+  <div class="wrapper">
+    <div class="inner-wrapper">
+      <div class="content-wrapper">
+        <div class="footer-text">&copy; 2016 Adam Kiryk</div>
+      </div>
+    </div>
+  </div>
+</footer>
